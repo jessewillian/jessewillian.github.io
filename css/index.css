@@ -6,6 +6,10 @@ header {
     padding: 10px 20px;
 }
 
+.icone {
+    border: 2px solid #000
+}
+
 nav {
     text-align: right;
 }
