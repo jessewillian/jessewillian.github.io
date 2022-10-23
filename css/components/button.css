@@ -5,6 +5,8 @@
     box-shadow: 5px 5px 0 #000;
     margin-right: 0;
     transition: transform 100ms linear, opacity 200ms ease-in-out;
+    font-size: 20px;
+    color: #FFF
 }
 
 .button_link:hover {
