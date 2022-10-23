@@ -2,9 +2,8 @@
     display: inline-block;
     background-color: #3A4042;
     box-shadow: 10px 10px 0 #000;
-    margin: 116px 0 0 91px;
     text-align: center;
-    padding: 42px 44px;
+    padding: 42px 44px
 }
 
 .box .title {
