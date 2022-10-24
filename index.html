@@ -19,12 +19,14 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/skills.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/section-skills.css">
+    <link rel="stylesheet" href="css/components/button-link.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
 
 </head>
 
@@ -32,14 +34,14 @@
 
     <header class="header">
 
-        <img class="icone" src="assets/img/icone_pequeno.jpg" alt="Ícone pequeno de um boneco com óculos desenhado">
+        <img class="avatar" src="assets/img/icone_pequeno.jpg" alt="Ícone pequeno de um boneco com óculos desenhado">
 
         <nav>
             <a class="action" href="#" lang="en">Skills</a>
             <a class="action" href="#">Projetos</a>
             <a class="action" href="#">Sobre</a>
             <a class="action" href="#">Contatos</a>
-            <a class="button_link" href="#" lang="en">Download CV</a>
+            <a class="button-link" href="#" lang="en">Download CV</a>
         </nav>
 
     </header>
@@ -47,19 +49,35 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title">Jesse Willian</h1>
+                <h1 class="main-title">Jesse Willian</h1>
                 <h2 class="subtitle">FrontEnd Beginner</h2>
             </div>
 
             <div class="navegation">
-                <a href="#" class="button_link" lang="en">Download CV</a>
-                <a href="#" class="button_link">Contatos</a>
+                <a href="#" class="button-link" lang="en">Download CV</a>
+                <a href="#" class="button-link">Contatos</a>
             </div>
         </div>
     </section>
 
-    <section class="skills">
-        <h2 class="title -second">Skills</h2>
+    <section class="section-skills">
+        <h2 class="main-title -second">Skills</h2>
+
+        <!-- Description list -->
+        <article class="skill-tec">
+
+            <div>
+                <img class="icon" src="assets/img/ico_html5.png" alt="icone html">
+            </div>
+            <div class="right">
+                <h3 class="title">HTML</h3>
+                <progress class="progress-bar" max="100" value="35">
+                    35%
+                </progress>
+            </div>
+
+        </article>
+
     </section>
 
 </body>
