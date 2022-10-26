@@ -4,15 +4,20 @@
     font-weight: 400;
     font-size: 25px;
     color: #fff;
+    align-items: center;
 }
 
 .skill-tec .icon {
     margin-right: 25px;
-    margin-left: 235px;
+    width: 90px;
 }
 
 .skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-tec .title {
+    margin-bottom: 10px;
 }
