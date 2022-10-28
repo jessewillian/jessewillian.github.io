@@ -1,10 +1,10 @@
-.section-projects {
+.card-projects {
     background-color: #000;
     border-bottom: 10px solid #62C370;
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-.section-projects .main-title {
+.card-projects .main-title {
     margin-bottom: 60px;
 }

@@ -2,3 +2,12 @@
     display: flex;
     justify-content: space-around;
 }
+
+.card-img {
+    display: flex;
+    background-color: #7C5E99;
+    width: 280px;
+    height: 280px;
+    border: 10px groove grey;
+    box-shadow: 10px 10px 0 grey;
+}
