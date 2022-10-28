@@ -1,6 +1,6 @@
 .wrapper-project {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .card-img {
