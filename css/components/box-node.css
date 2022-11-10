@@ -1,0 +1,55 @@
+.box-node {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.box-node::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 36px;
+    height: 6px;
+    width: calc(100% - 80px);
+    background-color: #000;
+}
+
+.box-node::before {
+    content: '';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 36px;
+    border: 3px dashed #000;
+    width: 100%;
+}
+
+
+.box-node .button-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.box-node .button-arrow.-left {
+    left: 15px;
+}
+
+.box-node .button-arrow.-right {
+    right: 15px;
+}
+
+.box-node .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box-node .elements {
+    display: flex;
+    justify-content: space-around;
+    transition: transform 100ms ease-in-out;
+}
