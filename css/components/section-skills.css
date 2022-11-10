@@ -8,3 +8,8 @@
 .section-skills .main-title {
     margin-bottom: 60px;
 }
+
+.section-skills.-bdcolor {
+    background-color: #4C5B84;
+    border-bottom: 10px solid #000;
+}
