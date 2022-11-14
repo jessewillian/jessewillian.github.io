@@ -14,3 +14,10 @@
     opacity: 0.8;
     transform: skew(-10deg, 0deg);
 }
+
+.button-link.-inputsub {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 50px;
+    transform: none;
+}
