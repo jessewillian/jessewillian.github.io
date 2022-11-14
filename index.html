@@ -245,17 +245,19 @@
     </section>
 
 
-    <form action="" method="" name="form" class="form-contact">
+    <form action="./php/enviar-email.php" method="post" name="form" class="form-contact">
+
+
         <legend class="main-title -second">Contatos</legend>
 
         <label class="t-label" for="name">Nome</label>
-        <input class="box-area" type="text" id="name" name="name" required>
+        <input class="box-area" type="text" id="name" name="nome" minlength="5" maxlength="40" required>
 
         <label class="t-label" for="email">Email</label>
-        <input class="box-area" type="email" id="email" name="email" required>
+        <input class="box-area" type="email" id="email" name="email" maxlength="50" required>
 
         <label class="t-label" for="message">Mensagem</label>
-        <textarea class="box-area -areatext" name="message" id="message" maxlength="1000" required></textarea>
+        <textarea class="box-area -areatext" name="mensagem" id="message" maxlength="1000" required></textarea>
 
         <input type="submit" name="submit" class="button-link -inputsub" value="Enviar">
     </form>
