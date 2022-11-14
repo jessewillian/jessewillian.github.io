@@ -1,0 +1,16 @@
+.form-contact {
+    padding: 50px 40px;
+    background-color: #3A4042;
+}
+
+.form-contact .main-title {
+    margin-bottom: 30px;
+}
+
+.form-contact .box-area {
+    margin-bottom: 20px;
+}
+
+.form-contact .box-area.-areatext {
+    margin-bottom: 40px;
+}
