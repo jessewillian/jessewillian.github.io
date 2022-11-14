@@ -15,6 +15,4 @@ $body = $body . "=====================================" . "\n";
 
 mail($destinatario ,$body, "From: $email\r\n");
 
-header("location:obrigado.htm");
-
 ?>
